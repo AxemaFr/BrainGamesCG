@@ -10,13 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ffb5af-3a6c-4858-adf6-1f239fb14d92" name="Default Changelist" comment="task4: edit main.yml">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+    <list default="true" id="f5ffb5af-3a6c-4858-adf6-1f239fb14d92" name="Default Changelist" comment="task4: edit config files">
+      <change afterPath="$PROJECT_DIR$/bin/brain-even.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/get-random-int.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/games/brain-even.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600688595039</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="task4: edit config files">
+      <created>1600693905011</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600693905011</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,16 +122,21 @@
     <MESSAGE value="task3: added askName function, imported and used it in brain-games.js" />
     <MESSAGE value="task4: added ESlint, config for it, readme" />
     <MESSAGE value="task4: edit main.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="task4: edit main.yml" />
+    <MESSAGE value="task4: edit config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4: edit config files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="276" key="#JavaScript" timestamp="1600688030858">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="613" y="276" key="#JavaScript/0.0.1792.1120@0.0.1792.1120" timestamp="1600688030858" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1600688598174">
+    <state x="617" y="369" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600694297518">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600688598174" />
+    <state x="617" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1600694297518" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1600693911037">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600693911037" />
   </component>
 </project>
