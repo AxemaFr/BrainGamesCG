@@ -10,16 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ffb5af-3a6c-4858-adf6-1f239fb14d92" name="Default Changelist" comment="task3: added askName function, imported and used it in brain-games.js">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="f5ffb5af-3a6c-4858-adf6-1f239fb14d92" name="Default Changelist" comment="task4: added ESlint, config for it, readme">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/brain-games.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/cli.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600686943322</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="task4: added ESlint, config for it, readme">
+      <created>1600688480457</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1600688480457</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,16 +103,17 @@
     <MESSAGE value="task1: Init project" />
     <MESSAGE value="task2: added makefile, added package.json functionality, now package can be published via npm" />
     <MESSAGE value="task3: added askName function, imported and used it in brain-games.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="task3: added askName function, imported and used it in brain-games.js" />
+    <MESSAGE value="task4: added ESlint, config for it, readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4: added ESlint, config for it, readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="276" key="#JavaScript" timestamp="1600688030858">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="613" y="276" key="#JavaScript/0.0.1792.1120@0.0.1792.1120" timestamp="1600688030858" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1600686946503">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1600688483670">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600686946503" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600688483670" />
   </component>
 </project>
