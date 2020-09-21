@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import start from '../src/games/brain-even.js';
+import start from '../src/games/brain-calc.js';
 import askName from '../src/cli.js';
 
 async function startGame() {
