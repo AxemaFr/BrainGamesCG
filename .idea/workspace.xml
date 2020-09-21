@@ -10,9 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ffb5af-3a6c-4858-adf6-1f239fb14d92" name="Default Changelist" comment="task4: added ESlint, config for it, readme">
+    <list default="true" id="f5ffb5af-3a6c-4858-adf6-1f239fb14d92" name="Default Changelist" comment="task4: edit main.yml">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600688480457</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="task4: edit main.yml">
+      <created>1600688595039</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1600688595039</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,16 +115,17 @@
     <MESSAGE value="task2: added makefile, added package.json functionality, now package can be published via npm" />
     <MESSAGE value="task3: added askName function, imported and used it in brain-games.js" />
     <MESSAGE value="task4: added ESlint, config for it, readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="task4: added ESlint, config for it, readme" />
+    <MESSAGE value="task4: edit main.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="task4: edit main.yml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="276" key="#JavaScript" timestamp="1600688030858">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="613" y="276" key="#JavaScript/0.0.1792.1120@0.0.1792.1120" timestamp="1600688030858" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1600688483670">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1600688598174">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600688483670" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600688598174" />
   </component>
 </project>
