@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/AxemaFr/frontend-project-lvl1#readme",
   "dependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "promptly": "^3.0.3"
   }
 }
