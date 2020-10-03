@@ -18,7 +18,7 @@ async function startGame(gameDataFn, intro) {
     console.log(`Question: ${question}`);
     const userAnswer = await promptly.prompt('Your answer: ');
 
-    if (userAnswer.toString() === correctAnswer.toString()) {
+    if (userAnswer === correctAnswer) {
       console.log('Correct!');
     } else {
       console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`);
