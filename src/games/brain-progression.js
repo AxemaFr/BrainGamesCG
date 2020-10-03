@@ -1,7 +1,7 @@
 import getRandomInt from '../common/get-random-int.js';
-import startGame from '../index.js';
+import startGame from '../core.js';
 
-const introQuestion = 'What number is missing in the progression?';
+const INTRO_QUESTION = 'What number is missing in the progression?';
 
 const generateProgression = (startNumber, multiplier, length) => {
   return new Array(length).fill('').map( (current, index) => startNumber + index * multiplier);
@@ -26,4 +26,4 @@ const getProgressionGameData = () => {
   };
 };
 
-export default () => startGame(getProgressionGameData, introQuestion);
+export default () => startGame(getProgressionGameData, INTRO_QUESTION);

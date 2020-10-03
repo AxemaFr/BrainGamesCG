@@ -1,7 +1,7 @@
 import getRandomInt from '../common/get-random-int.js';
-import startGame from "../index.js";
+import startGame from "../core.js";
 
-const introQuestion = 'Answer "yes" if the number is even, otherwise answer "no".';
+const INTRO_QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (number) => number % 2 === 0;
 
@@ -15,4 +15,4 @@ const getEvenGameData = () => {
   };
 };
 
-export default () => startGame(getEvenGameData, introQuestion);
+export default () => startGame(getEvenGameData, INTRO_QUESTION);
