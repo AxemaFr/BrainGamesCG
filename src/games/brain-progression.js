@@ -1,5 +1,5 @@
 import getRandomInt from '../common/get-random-int.js';
-import startGame from '../core.js';
+import startGame from '../engine.js';
 
 const INTRO_QUESTION = 'What number is missing in the progression?';
 const MAX_START_NUMBER = 15;

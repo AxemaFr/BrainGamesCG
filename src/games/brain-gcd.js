@@ -1,5 +1,5 @@
 import getRandomInt from '../common/get-random-int.js';
-import startGame from '../core.js';
+import startGame from '../engine.js';
 
 const INTRO_QUESTION = 'Find the greatest common divisor of given numbers.';
 const MAX_NUMBER = 100;

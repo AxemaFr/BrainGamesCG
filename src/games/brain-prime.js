@@ -1,5 +1,5 @@
 import getRandomInt from '../common/get-random-int.js';
-import startGame from '../core.js';
+import startGame from '../engine.js';
 
 const INTRO_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const MAX_NUMBER = 100;
