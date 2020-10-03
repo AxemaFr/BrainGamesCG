@@ -10,14 +10,14 @@ const isPrime = (num) => {
   }
   const limit = Math.sqrt(num);
 
-  for (let i = 2; i <= limit; ++i) {
+  for (let i = 2; i <= limit; i += 1) {
     if (num % i === 0) {
       return false;
     }
   }
 
   return true;
-}
+};
 
 const getPrimeGameData = () => {
   const randomNumber = getRandomInt(1, MAX_NUMBER);

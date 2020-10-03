@@ -1,5 +1,5 @@
-import getRandomInt from '../common/get-random-int.js'
-import startGame from "../core.js";
+import getRandomInt from '../common/get-random-int.js';
+import startGame from '../core.js';
 
 const INTRO_QUESTION = 'What is the result of the expression?';
 const MAX_NUMBERS_LENGTH = 3;
@@ -14,7 +14,7 @@ const getCalcGameData = () => {
 
   return {
     question: randomTerms.join(' + '),
-    correctAnswer: correctAnswer,
+    correctAnswer,
   };
 };
 

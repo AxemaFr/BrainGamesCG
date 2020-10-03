@@ -13,8 +13,8 @@ async function startGame(gameDataFn, intro) {
 
   const winQuestionsCount = 3;
 
-  for (let i = 0; i < winQuestionsCount; i++) {
-    let { question, correctAnswer } = gameDataFn();
+  for (let i = 0; i < winQuestionsCount; i += 1) {
+    const { question, correctAnswer } = gameDataFn();
     console.log(`Question: ${question}`);
     const userAnswer = await promptly.prompt('Your answer: ');
 
@@ -28,7 +28,7 @@ async function startGame(gameDataFn, intro) {
     }
   }
 
-  console.log('You won man!')
+  console.log('You won man!');
 }
 
 export default startGame;

@@ -7,10 +7,9 @@ const MAX_MULTIPLIER = 5;
 const MIN_PROGRESSION_LENGTH = 5;
 const MAX_PROGRESSION_LENGTH = 10;
 
-const generateProgression = (startNumber, multiplier, length) => {
-  return new Array(length).fill('').map( (current, index) => startNumber + index * multiplier);
-};
-
+const generateProgression = (startNumber, multiplier, length) => (
+  new Array(length).fill('').map((current, index) => startNumber + index * multiplier)
+);
 
 const getProgressionGameData = () => {
   const startNumber = getRandomInt(1, MAX_START_NUMBER);
@@ -21,7 +20,7 @@ const getProgressionGameData = () => {
   const progressionIndexToRemove = getRandomInt(0, progression.length - 1);
 
   const progressionWithMissingElement = progression
-    .map((elem, idx) => idx === progressionIndexToRemove ? '...' : elem)
+    .map((elem, idx) => (idx === progressionIndexToRemove ? '...' : elem))
     .join('->');
 
   const correctAnswer = String(progression[progressionIndexToRemove]);
@@ -32,4 +31,4 @@ const getProgressionGameData = () => {
   };
 };
 
-export default () => startGame(getProgressionGameData, INTRO_QUESTION);
+export default () => (startGame(getProgressionGameData, INTRO_QUESTION));

@@ -1,5 +1,5 @@
 import getRandomInt from '../common/get-random-int.js';
-import startGame from "../core.js";
+import startGame from '../core.js';
 
 const INTRO_QUESTION = 'Answer "yes" if the number is even, otherwise answer "no".';
 const MAX_NUMBER = 100;
