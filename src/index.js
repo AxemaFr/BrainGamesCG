@@ -6,19 +6,19 @@ async function askName() {
   return name;
 }
 
-async function startGame(gameDataFn) {
+async function startGame(gameDataFn, intro) {
   const userName = await askName();
-  const { intro, question, correctAnswer } = gameDataFn();
 
   console.log(intro);
 
   const winQuestionsCount = 3;
 
   for (let i = 0; i < winQuestionsCount; i++) {
+    let { question, correctAnswer } = gameDataFn();
     console.log(`Question: ${question}`);
     const userAnswer = await promptly.prompt('Your answer: ');
 
-    if (userAnswer === correctAnswer) {
+    if (userAnswer.toString() === correctAnswer.toString()) {
       console.log('Correct!');
     } else {
       console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`);

@@ -1,10 +1,6 @@
 #!/usr/bin/env node
-import start from '../src/games/brain-calc.js';
-import askName from '../src/cli.js';
+import getCalcGameData from '../src/games/brain-calc.js';
+import startGame from '../src/index.js';
 
-async function startGame() {
-  const name = await askName();
-  start(name);
-}
-
-startGame();
+const introQuestion = 'What is the result of the expression?';
+startGame(getCalcGameData, introQuestion);
