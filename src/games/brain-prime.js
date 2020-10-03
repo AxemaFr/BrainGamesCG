@@ -2,6 +2,7 @@ import getRandomInt from '../common/get-random-int.js';
 import startGame from '../core.js';
 
 const INTRO_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const MAX_NUMBER = 100;
 
 const isPrime = (num) => {
   if (num < 2) {
@@ -19,7 +20,7 @@ const isPrime = (num) => {
 }
 
 const getPrimeGameData = () => {
-  const randomNumber = getRandomInt(1, 100);
+  const randomNumber = getRandomInt(1, MAX_NUMBER);
   const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';
 
   return {
