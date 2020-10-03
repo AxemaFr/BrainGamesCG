@@ -9,6 +9,8 @@
 # Brain Even
 [![asciicast](https://asciinema.org/a/MXjDecdLLGTzEH5N2bfgH91bg.svg)](https://asciinema.org/a/MXjDecdLLGTzEH5N2bfgH91bg)
 
-# Brain Calc
+# Brain Gcd
+
+[![asciicast](https://asciinema.org/a/wD4wyc1Ngpfi0yqqH1ioe6li9.svg)](https://asciinema.org/a/wD4wyc1Ngpfi0yqqH1ioe6li9)
 
 # Brain Calc

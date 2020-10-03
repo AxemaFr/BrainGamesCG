@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-import getCalcGameData from '../src/games/brain-calc.js';
-import startGame from '../src/index.js';
+import start from '../src/games/brain-calc.js';
 
-const introQuestion = 'What is the result of the expression?';
-startGame(getCalcGameData, introQuestion);
+start();

@@ -10,13 +10,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ffb5af-3a6c-4858-adf6-1f239fb14d92" name="Default Changelist" comment="task6: refactored some code">
+    <list default="true" id="f5ffb5af-3a6c-4858-adf6-1f239fb14d92" name="Default Changelist" comment="task6: some code cleanup">
+      <change afterPath="$PROJECT_DIR$/bin/brain-gcd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/games/brain-gcd.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-calc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/brain-even.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-even.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/brain-games.js" beforeDir="false" afterPath="$PROJECT_DIR$/bin/brain-games.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/games/brain-calc.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-calc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/games/brain-even.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/games/brain-even.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +60,7 @@
       <updated>1600682469748</updated>
       <workItem from="1600682471356" duration="3367000" />
       <workItem from="1601493613207" duration="8000" />
-      <workItem from="1601725172245" duration="989000" />
+      <workItem from="1601725172245" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="task1: Init project">
       <created>1600682923705</created>
@@ -122,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601725442500</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="task6: some code cleanup">
+      <created>1601726174661</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601726174661</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +161,8 @@
     <MESSAGE value="task5: added brain-even game" />
     <MESSAGE value="task6: added brain-calc game, added asciicast for calc and even games" />
     <MESSAGE value="task6: refactored some code" />
-    <option name="LAST_COMMIT_MESSAGE" value="task6: refactored some code" />
+    <MESSAGE value="task6: some code cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="task6: some code cleanup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="613" y="276" key="#JavaScript" timestamp="1600688030858">
@@ -162,9 +173,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="617" y="369" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1600694297518" />
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1601725446168">
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2" timestamp="1601726178234">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1601725446168" />
+    <state x="496" y="300" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1601726178234" />
   </component>
 </project>
