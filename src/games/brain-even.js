@@ -15,19 +15,4 @@ const getEvenGameData = () => {
   };
 };
 
-async function start(userName) {
-  const { question, correctAnswer } = getEvenGameData();
-
-  console.log(introQuestion);
-  console.log(`Question: ${question}`);
-  const userAnswer = await promptly.prompt('Your answer: ');
-
-  if (userAnswer === correctAnswer) {
-    console.log('Correct!');
-  } else {
-    console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`);
-    console.log(`Let's try again, ${userName}!`);
-  }
-}
-
-export default start;
+export default getEvenGameData;

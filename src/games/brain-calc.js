@@ -9,24 +9,10 @@ const getCalcGameData = () => {
   const correctAnswer = randomTerms.reduce((acc, cur) => acc + cur, 0);
 
   return {
+    intro: introQuestion,
     question: randomTerms.join(' + '),
     correctAnswer,
   };
 };
 
-async function start(userName) {
-  const { question, correctAnswer } = getCalcGameData();
-
-  console.log(introQuestion);
-  console.log(`Question: ${question}`);
-  const userAnswer = await promptly.prompt('Your answer: ');
-
-  if (String(userAnswer) === String(correctAnswer)) {
-    console.log('Correct!');
-  } else {
-    console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${correctAnswer}".`);
-    console.log(`Let's try again, ${userName}!`);
-  }
-}
-
-export default start;
+export default getCalcGameData;
