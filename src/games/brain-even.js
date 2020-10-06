@@ -11,7 +11,7 @@ const getEvenGameData = () => {
   const correctAnswer = isEven(randomNumber) ? 'yes' : 'no';
 
   return {
-    question: randomNumber,
+    question: String(randomNumber),
     correctAnswer,
   };
 };

@@ -1,6 +1,6 @@
 # Brain Games
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
-![Linter](https://github.com/AxemaFr/frontend-project-lvl1/workflows/Node%20CI/badge.svg)
+<a href="https://codeclimate.com/github/AxemaFr/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/d45f668ffbe6bb7750da/maintainability" /></a>
+<a href="https://github.com/AxemaFr/frontend-project-lvl1/actions"> <img src="https://github.com/AxemaFr/frontend-project-lvl1/workflows/Node%20CI/badge.svg"> </img></a>
 
 
 # Brain Calc

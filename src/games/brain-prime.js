@@ -24,7 +24,7 @@ const getPrimeGameData = () => {
   const correctAnswer = isPrime(randomNumber) ? 'yes' : 'no';
 
   return {
-    question: randomNumber,
+    question: String(randomNumber),
     correctAnswer,
   };
 };

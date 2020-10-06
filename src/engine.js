@@ -1,20 +1,15 @@
 import promptly from 'promptly';
 
-async function askName() {
-  const name = await promptly.prompt('May I have your name? ');
-  console.log(`Hello, ${name}`);
-  return name;
-}
+const WIN_QUESTIONS_COUNT = 3;
 
-async function startGame(gameDataFn, intro) {
-  const userName = await askName();
+async function startGame(genGameData, intro) {
+  const userName = await promptly.prompt('May I have your name? ');
+  console.log(`Hello, ${userName}`);
 
   console.log(intro);
 
-  const winQuestionsCount = 3;
-
-  for (let i = 0; i < winQuestionsCount; i += 1) {
-    const { question, correctAnswer } = gameDataFn();
+  for (let i = 0; i < WIN_QUESTIONS_COUNT; i += 1) {
+    const { question, correctAnswer } = genGameData();
     console.log(`Question: ${question}`);
     const userAnswer = await promptly.prompt('Your answer: ');
 
